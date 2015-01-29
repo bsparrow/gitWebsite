@@ -5,7 +5,7 @@ html{
 	text-align:center;
 	margin:0 auto;
 	padding:0;
-	background: url(../img/bg.jpg) no-repeat center center #fff;
+	background: url(../img/background.jpeg) no-repeat center center #fff;
 	overflow:scroll;
 }
 
@@ -82,8 +82,8 @@ em strong, strong em{ font-weight:bold; font-style:italic; }
 	display:block;
 	position: absolute;
 	width:186px;
-	height:32px;
-	background: url(../img/logo.gif) no-repeat 0 0;
+	height:48px;
+	background: url(../img/logo.png) no-repeat 0 0;
 	left:50%;
 	margin:0 0 0 -280px;
 	top:15px;
