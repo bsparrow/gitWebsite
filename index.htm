@@ -13,11 +13,11 @@
         </script>
         <script src="js/include.js"></script>
 
-        <script src="js.processing.js" type="text/javascript"></script>
+        <script src="js/processing.js" type="text/javascript"></script>
         <script src="text/javascript">
             //convenience function to get the id attribute of generated sketch html element
-            //function getProcessingSketchId() {
-            //return 'drawingProgram';
+            function getProcessingSketchId() {
+                return 'background';
             }
         </script>
     </head>
@@ -26,6 +26,7 @@
 
         <div id="container">
             <div id="include"></div>
+            <canvas id="background" data-processing-sources="pde/background/background.pde" width="1280" height="1280"></canvas>
             <a id="logo">Brandon Sparrow</a>
 
 
